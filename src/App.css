@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  opacity: 1;
+}
+
+.title {
+  padding: 12px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3498db;
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.nav-styles {
+  padding: 12px;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.nav-buttons {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: inherit;
+  box-shadow: -5px -5px 12px #fff,
+    5px 5px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  box-shadow: inset -5px -5px 12px #fff,
+    inset 5px 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+.nav-buttons:hover {
+  border: none;
+  box-shadow: -5px -5px 12px #fff,
+    5px 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+.user-content{
+  margin: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.user-card{
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  background-color: #f8e8e8;
+  border: 1px solid #ddd;
+  box-shadow: -5px -5px 12px #f2f2f2,
+              5px 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-card:hover{
+  box-shadow: -5px -5px 12px #f2f2f2,
+              5px 5px 12px rgba(0, 0, 0, 0.4);
+  background-color:#ecf0f3;
+}
+
+.btn{
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.view-btn, .edit-btn, .del-btn {
+  box-shadow: inset -5px -5px 12px #ffffff,
+  inset 5px 5px 12px rgba(0, 0, 0, 0.4);
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+.view-btn:hover, .edit-btn:hover {
+  box-shadow: -5px -5px 12px #ffffff,
+  5px 5px 12px rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  color: #2980b9;
+}
+
+.del-btn {
+  box-shadow: inset -5px -5px 12px #ffffff,
+  inset 5px 5px 12px rgba(0, 0, 0, 0.4);
+  background-color: #c0392b;
+  color: #ffffff;
+}
+
+.del-btn:hover {
+  box-shadow: -5px -5px 12px #ffffff,
+  5px 5px 12px rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  color: #c0392b;
+}
+
+.childred {
+  height: 90vh;
+  margin: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+.edit {
+  display: grid;
+  justify-content: center;
+}
+
